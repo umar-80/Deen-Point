@@ -5,23 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeenPoint</title>
-    <link rel="stylesheet" href="./style.css">
-    <style>
-    
-
-        body {
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="artucle.html">
+    <style> 
+      body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f9f9f9;
             color: #333;
         }*
-   
+/*    
         nav {
-            background-color: #065535;
-            padding: 15px;
+            background-color: #0b3d3d;
+            padding: 20px 40px;
+            height: 7px;      
             text-align: center;
-        } 
+        }  */
+           
+
+header .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
         nav a {
             color: white;
             margin: 0 15px;
@@ -106,16 +119,15 @@
 <body>
 
     <header>
-        <h1>DeenPoint</h1>
+        <div class="logo">DeenPoint</div>
+        <nav>
+            <a href="./index.html">Home</a>  
+            <a href="./qran.html">Quran</a>
+            <a href="./Hadith.html">Hadith</a>
+            <a href="./Artice.html">Articles</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="./index.html">Home </a>
-        <a href="./artice.html">Article</a>
-        <a href="./Hadith.html">Hadith</a>
-
-        <a href="#contact">Contact</a>
-    </nav>
     <div class="container" id="about">
         <h2>Download-Link Of Quran Majeed</h2>
         <center><a href="./Quran/standard1-quran.pdf" Download-Link>Quran Majeed</a></center>
